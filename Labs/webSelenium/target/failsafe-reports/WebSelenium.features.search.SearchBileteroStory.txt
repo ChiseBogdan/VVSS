@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: WebSelenium.features.search.SearchBileteroStory
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.666 sec - in WebSelenium.features.search.SearchBileteroStory

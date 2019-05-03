@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="303de2be-a2a0-42f6-9ca9-f960dc8ccdca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebSelenium/features/search/CalendarBileteroStory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebSelenium/features/search/LoginBileteroParamDdt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebSelenium/features/search/LoginBileteroStory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebSelenium/features/search/SearchBileteroStory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebSelenium/pages/CalendarPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebSelenium/pages/LoginBiletePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebSelenium/pages/SearchBiletePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/CalendarSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/SearchSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/src/test/java/cbir2073MV/control/CartiRepoMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab01/src/test/java/cbir2073MV/control/CartiRepoMockTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ElmWorkspace">
+    <elmProjects />
+    <settings binDirPath="" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/features/search/LoginBileteroStory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="38" column="5" selection-start-line="13" selection-start-column="3" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/data.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/features/search/LoginBileteroParamDdt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/pages/CalendarPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
+                <element signature="e#1146#1147#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/features/search/CalendarBileteroStory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-883">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/LoginSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#929#930#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/CalendarSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>firefox</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/pages/LoginBilete.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/features/search/LoginBiletero.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/LoginSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/pages/LoginBiletePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/pages/SearchBiletePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/SearchSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/features/search/SearchBiletero.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/pages/CalendarPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/features/search/CalendarBiletero.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/CalendarSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/pages/DictionaryPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/EndUserSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/features/search/SearchByKeywordStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/features/search/LoginBileteroStory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebSelenium/features/search/LoginBileteroParamDdt.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/data.csv" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Serenity project with JUnit and WebDriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Serenity project with JUnit and WebDriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Serenity project with JUnit and WebDriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Serenity project with JUnit and WebDriver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="serenity" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="824" />
+    <option name="y" value="32" />
+    <option name="width" value="776" />
+    <option name="height" value="868" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webSelenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="webSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webSelenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webSelenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="webSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webSelenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webSelenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WebSelenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webSelenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WebSelenium" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webSelenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webSelenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webSelenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webSelenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webSelenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webSelenium" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="serenity" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556721120705" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="WebSelenium.features.search" />
+      <recent name="WebSelenium.pages" />
+      <recent name="WebSelenium.steps.serenity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.LoginBileteroParamDdt">
+    <configuration name="CalendarBileteroStory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webSelenium.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebSelenium.features.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebSelenium.features.search" />
+      <option name="MAIN_CLASS_NAME" value="WebSelenium.features.search.CalendarBileteroStory" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginBileteroParamDdt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webSelenium.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebSelenium.features.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebSelenium.features.search" />
+      <option name="MAIN_CLASS_NAME" value="WebSelenium.features.search.LoginBileteroParamDdt" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginBileteroParamDdt.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webSelenium.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebSelenium.features.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebSelenium.features.search" />
+      <option name="MAIN_CLASS_NAME" value="WebSelenium.features.search.LoginBileteroParamDdt" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginBiletero" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="webSelenium.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebSelenium.features.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebSelenium.features.search" />
+      <option name="MAIN_CLASS_NAME" value="WebSelenium.features.search.LoginBiletero" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchBileteroStory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webSelenium.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebSelenium.features.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebSelenium.features.search" />
+      <option name="MAIN_CLASS_NAME" value="WebSelenium.features.search.SearchBileteroStory" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebSelenium.features.search in webSelenium.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webSelenium.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebSelenium.features.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WebSelenium.features.search" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SearchBileteroStory" />
+      <item itemvalue="JUnit.CalendarBileteroStory" />
+      <item itemvalue="JUnit.WebSelenium.features.search in webSelenium.test" />
+      <item itemvalue="JUnit.LoginBileteroParamDdt" />
+      <item itemvalue="JUnit.LoginBileteroParamDdt.testLogin" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginBileteroParamDdt" />
+        <item itemvalue="JUnit.LoginBileteroParamDdt.testLogin" />
+        <item itemvalue="JUnit.WebSelenium.features.search in webSelenium.test" />
+        <item itemvalue="JUnit.CalendarBileteroStory" />
+        <item itemvalue="JUnit.SearchBileteroStory" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="303de2be-a2a0-42f6-9ca9-f960dc8ccdca" name="Default Changelist" comment="" />
+      <created>1556386227484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556386227484</updated>
+      <workItem from="1556386230495" duration="5876000" />
+      <workItem from="1556707654249" duration="2877000" />
+      <workItem from="1556712357165" duration="5425000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CalendarBiletero - 2019.05.01 at 16h 26m 32s.xml">
+      <configuration name="CalendarBiletero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalendarBiletero - 2019.05.01 at 16h 27m 35s.xml">
+      <configuration name="CalendarBiletero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalendarBiletero - 2019.05.01 at 16h 28m 29s.xml">
+      <configuration name="CalendarBiletero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebSelenium_features_search_in_webSelenium_test - 2019.05.01 at 16h 29m 53s.xml">
+      <configuration name="WebSelenium.features.search in webSelenium.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebSelenium_features_search_in_webSelenium_test - 2019.05.01 at 17h 29m 27s.xml">
+      <configuration name="WebSelenium.features.search in webSelenium.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginBileteroParamDdt - 2019.05.01 at 17h 30m 24s.xml">
+      <configuration name="LoginBileteroParamDdt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginBileteroParamDdt_testLogin - 2019.05.01 at 17h 30m 36s.xml">
+      <configuration name="LoginBileteroParamDdt.testLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginBileteroParamDdt - 2019.05.01 at 17h 31m 22s.xml">
+      <configuration name="LoginBileteroParamDdt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginBileteroParamDdt - 2019.05.01 at 17h 31m 37s.xml">
+      <configuration name="LoginBileteroParamDdt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginBileteroParamDdt - 2019.05.01 at 17h 31m 56s.xml">
+      <configuration name="LoginBileteroParamDdt" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14178000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="48" y="32" width="1552" height="868" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2563081" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="simpleUML" order="7" weight="0.32934928" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287858" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972714" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3287858" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.33015007" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.3287858" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32876712" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Elm" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="Gradle" order="12" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WebSelenium/pages/LoginBiletePage.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WebSelenium/features/search/LoginBileteroStory.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/LoginSteps.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WebSelenium/pages/LoginBiletePage.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/LoginSteps.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WebSelenium/features/search/LoginBileteroStory.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/LoginSteps.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/LoginSteps.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WebSelenium/features/search/LoginBileteroParamDdt.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WebSelenium/features/search/LoginBileteroParamDdt.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/LoginSteps.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/LoginSteps.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar!/org/hamcrest/Matchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="221" column="34" selection-start-line="221" selection-start-column="34" selection-end-line="221" selection-end-column="34" />
+          <folding>
+            <element signature="e#7864#7865#0" expanded="true" />
+            <element signature="e#7927#7928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-core/1.8.3/787ce0be94719a6ba902e9cc3746ff66112873ef/serenity-core-1.8.3-sources.jar!/net/serenitybdd/core/pages/PageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="728" column="22" selection-start-line="728" selection-start-column="22" selection-end-line="728" selection-end-column="22" />
+          <folding>
+            <element signature="e#26065#26066#0" expanded="true" />
+            <element signature="e#26114#26115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/SearchSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/pages/SearchBiletePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/features/search/SearchBileteroStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/pages/LoginBiletePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/pages/CalendarPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/CalendarSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/features/search/CalendarBileteroStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-883">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/EndUserSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/features/search/SearchByKeywordStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/pages/DictionaryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="26" selection-start-line="14" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/features/search/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/features/search/LoginBileteroStory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="38" column="5" selection-start-line="13" selection-start-column="3" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/data.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/features/search/LoginBileteroParamDdt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebSelenium/steps/serenity/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="serenity:aggregate" />
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>

@@ -1,0 +1,488 @@
+<html class="theme-BileteRo2" lang="ro-RO"><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Log in</title>
+
+
+	
+	<link href="/cssbundles/lib?v=4e_G4W_ZntdWi0xqKZR289ShsB80OqNvurHyP42_cCE1" rel="stylesheet">
+
+	
+	<link href="/cssbundles/app?v=KzovNgypByzdYjkTldFjqlZdHF5AbwfeLYNZPN71Knc1" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+	
+	<link href="/mvc/Content/bookingstyles?v=0hda3Wj6FagPFaboK7eL6XT6JtuX1gJYC2-_aa9Rulw1" rel="stylesheet">
+
+
+	<!--[if lt IE 9]>
+	<script src="https://static.bilete.ro/html5shiv-3.7.2.min.js"></script>
+	<script src="https://static.bilete.ro/respond-1.4.2.min.js"></script>
+	<script src="https://static.bilete.ro/json2/json2.min.js" integrity="sha256-Fsw5X9ZUnlJb302irkG8pKCRwerGfxSArAw22uG/QkQ=" crossorigin="anonymous"></script>
+	<script src="https://static.bilete.ro/jquery/jquery-1.12.4.min.js"></script>
+	<script src="https://static.bilete.ro/jquery/jquery-migrate-1.2.1.min.js"></script>
+	<![endif]-->
+	<!--[if !(lt IE 9)]> -->
+	<script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://static.bilete.ro/jquery/jquery-2.2.3.min.js"></script>
+	<script src="https://static.bilete.ro/jquery/jquery-migrate-1.4.1.min.js"></script>
+	<!-- <![endif]-->
+
+	<script src="/mvc/scriptbundles/jqueryplugins?v=cPru-nFYxyFIJIrHAoadzkk4vbHgWDj6nHsRCTQKDq81"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/dark-floating.css"></head>
+<body class="body-navbar-fixed-top" style="padding-top: 94px;"><div class="cc_banner-wrapper "><div class="cc_banner cc_container cc_container--open"><a href="#null" data-cc-event="click:dismiss" target="_blank" class="cc_btn cc_btn_accept_all">Am inteles</a><p class="cc_message">Acest site foloseste cookies pentru o experienta completa. </p><a class="cc_logo" target="_blank" href="http://silktide.com/cookieconsent">Cookie Consent plugin for the EU cookie law</a></div></div>
+
+	<div class="preloader-overlay done hidden">
+		<div class="preloader-spinner">
+			<div class="loading-dots">
+				<div class="bounce1"></div>
+				<div class="bounce2"></div>
+				<div class="bounce3"></div>
+			</div>
+			
+		</div>
+	</div>
+
+	<!--nav start-->
+	<nav id="mainnav" class="navbar navbar-inverse navbar-fixed-top">
+		<div class="extra-navbar">
+			<div class="container">
+				<ul class="list-inline list-unstyled pull-right">
+					<li class="">
+						
+
+
+<form action="/mvc/LanguageSwitch/SetLanguage" class="form-horizontal" method="post">	<input type="hidden" name="ReturnUrl" value="/mvc/Account/Login?ReturnUrl=%2F">
+		<button class="btn btn-link active" type="submit" name="NewLanguageCode" value="ro">RO</button>
+		<button class="btn btn-link " type="submit" name="NewLanguageCode" value="en">EN</button>
+		<button class="btn btn-link " type="submit" name="NewLanguageCode" value="hu">HU</button>
+</form>
+					</li>
+					<li class="visible-xs-inline"><a href="/info/despre-noi/contact/"><i class="fa fa-info-circle"></i> contact</a></li>
+					<li class="hidden-xs"><a href="/info/"><i class="fa fa-info-circle"></i> info</a></li>
+					<li class="session-login-summary-container">
+
+
+
+
+	<a href="/mvc/Account/Login?ReturnUrl=%2F"><i class="fa fa-user" aria-hidden="true"></i> login</a>
+</li>
+				</ul>
+				<ul class="list-inline list-unstyled">
+					<li class="hidden-xs"><a href="mailto:office@bilete.ro" title=""><i class="fa fa-envelope" aria-hidden="true"></i> office@bilete.ro</a></li>
+					<li class="hidden-xs"><a href="tel:+40213119323" title="Sunati la 021-311.93.23"><i class="fa fa-phone" aria-hidden="true"></i> 021-311.93.23</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+<div class="main-navbar navbar-bg-v1">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-parent="#mainnav" data-target="#navbar_menu">
+				<i class="fa fa-bars"></i>
+			</button>
+			<button type="button" class="navbar-toggle collapsed hidden-homepage" data-toggle="collapse" data-parent="#mainnav" data-target="#navbar_search" onclick="setTimeout(function () { $('#navbar_search:visible .searchbox').focus(); }, 300);">
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</button>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-parent="#mainnav" data-target="#navbar_cart">
+				<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+			</button>
+			
+			<a class="navbar-brand" href="/">
+				<img src="//www.bilete.ro/media/4531/biletero_logo_white_optimized.png" alt="Bilete.ro" class="img-site-logo small-logo visible-xs-inline" style="height:24px;">
+				<img src="//www.bilete.ro/media/4531/biletero_logo_white_optimized.png" alt="Bilete.ro" class="img-site-logo small-logo hidden-xs" style="height:36px;">
+			</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar_menu">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="hidden-xs hidden-homepage">
+					<a href="/cauta/"><i class="fa fa-search"></i></a>
+				</li>
+				<li class="navbar-activeable-id-1078 visible-xs-block"><a href="/">Prima pagina</a></li>
+				<li class="navbar-activeable-id-1142">
+					<a href="/categorii/teatru/" title="Teatru"><span class="underline-on-hover">Teatru</span></a>
+				</li>
+				<li class="navbar-activeable-id-1144">
+					<a href="/categorii/concerte/" title="Concerte si festivaluri"><span class="underline-on-hover">Concerte si festivaluri</span></a>
+				</li>
+				<li class="navbar-activeable-id-1143">
+					<a href="/categorii/sport/" title="Sport"><span class="underline-on-hover">Sport</span></a>
+				</li>
+				<li class="navbar-activeable-id-1145">
+					<a href="/categorii/pentru-copii/" title="Pentru copii"><span class="underline-on-hover">Pentru copii</span></a>
+				</li>
+				<li class="navbar-activeable-id-6422">
+					<a href="/categorii/cultural/" title="Cultural"><span class="underline-on-hover">Cultural</span></a>
+				</li>
+				<li class="navbar-activeable-id-1146">
+					<a href="/categorii/diverse/" title="Diverse"><span class="underline-on-hover">Diverse</span></a>
+				</li>
+								<li class="navbar-activeable-id-6729 visible-xs-block">
+					<a href="/calendar/" title="Calendarul evenimentelor"><i class="fa fa-calendar"></i> Calendarul evenimentelor</a>
+				</li>
+				<li class="navbar-activeable-id-6443 visible-xs-block">
+					<a href="/info/" title="Informatii utile"><i class="fa fa-info-circle"></i> Informatii utile</a>
+				</li>
+				<li class="navbar-activeable-id-6444 visible-xs-block">
+					<a href="/info/despre-noi/contact/" title="Contact"> Contact</a>
+				</li>
+				<li class="hidden-xs">
+					<a href="/mvc/checkout/index" title="Nr bilete rezervate de tine"><span class="session-order-summary-container">
+		<span><i class="fa fa-shopping-cart" aria-hidden="true"></i> 0  bilete</span>
+		<!----><!--0--></span></a>
+				</li>
+			</ul>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar_cart">
+			<div class="visible-xs-block">
+				<form class="navbar-form navbar-form-no-border" method="get" action="/cauta/" role="search">
+					<a href="/mvc/checkout/index" title="Nr bilete rezervate de tine" class="session-order-summary-container btn btn-buy btn-checkout btn-block">
+		<span><i class="fa fa-shopping-cart" aria-hidden="true"></i> 0  bilete</span>
+		<!----><!--0--></a>
+				</form>
+			</div>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar_search">
+			<div class="visible-xs-block">
+				<form class="navbar-form navbar-form-no-border navbar-search-form" method="get" action="/cauta/" role="search">
+					<div class="form-group form-group-lg" style="position:relative;">
+						<label class="control-label sr-only">Cauta evenimente, locatii, informatii</label>
+						<input type="search" name="q" class="form-control searchbox" autocomplete="off" placeholder="Cauta evenimente, locatii, informatii">
+						<button type="submit" class="btn btn-link btn-searchbox btn-lg" style="position:absolute;top:1px;right:1px;">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="opened-navbar visible-homepage-block">
+			<div class="row">
+				<div class="col-xl-6 col-lg-7 col-md-8 col-sm-10 col-xs-12" style="margin-left:auto;margin-right:auto;float:none;">
+
+					<div class="clearfix hidden-xs">
+						<ul class="nav nav-justified nav-categories">
+							<li>
+								<a href="/categorii/teatru/" title="Teatru"><span class="underline-on-hover">Teatru</span></a>
+							</li>
+							<li>
+								<a href="/categorii/concerte/" title="Concerte si festivaluri"><span class="underline-on-hover">Concerte si festivaluri</span></a>
+							</li>
+							<li>
+								<a href="/categorii/sport/" title="Sport"><span class="underline-on-hover">Sport</span></a>
+							</li>
+							<li>
+								<a href="/categorii/pentru-copii/" title="Pentru copii"><span class="underline-on-hover">Pentru copii</span></a>
+							</li>
+							<li>
+								<a href="/categorii/cultural/" title="Cultural"><span class="underline-on-hover">Cultural</span></a>
+							</li>
+							<li>
+								<a href="/categorii/diverse/" title="Diverse"><span class="underline-on-hover">Diverse</span></a>
+							</li>
+						</ul>
+					</div>
+
+					<form class="navbar-search-form" method="get" action="/cauta/">
+						<div class="form-group form-group-lg margin-0" style="position:relative;">
+							<label class="control-label sr-only">Cauta evenimente, locatii, informatii</label>
+							<input type="search" name="q" class="form-control searchbox searchbox-with-autocomplete" autocomplete="off" placeholder="Cauta evenimente, locatii, informatii">
+							<button type="submit" class="btn btn-link btn-searchbox btn-lg" style="position:absolute;top:1px;right:1px;">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</button>
+							<div class="search-autoresults">
+								<div class="panel text-left shadow-depth-2">
+									
+									<div class="results-group" style="display: none;">
+										
+										<div class="results-list results-list-spectacol list-group">
+											<a href="#" class="list-group-item ev-link" style="font-size:1.2em;">{Name}</a>
+										</div>
+									</div>
+									<div class="panel-body results-group" style="display: none;">
+										
+										<ul class="results-list results-list-location list-unstyled margin-0-vertical">
+											<li class=""><a href="#" class=""><i class="fa fa-map-marker" aria-hidden="true" style="font-size:1em;"></i> {Name}</a></li>
+										</ul>
+									</div>
+									<div class="panel-body results-group" style="display: none;">
+										
+										<ul class="results-list results-list-other list-unstyled margin-0-vertical">
+											<li class=""><em>{Type}:</em> <a href="#" class="">{Name}</a></li>
+										</ul>
+									</div>
+									<div class="panel-body more-results text-center">
+										<button type="submit" class="btn btn-primary">vezi toate rezultatele</button>
+									</div>
+								</div>
+							</div>
+							<div>
+								<ul class="nav nav-pills">
+									<li>
+										<a href="/calendar/" title="Calendarul evenimentelor"><i class="fa fa-calendar"></i> <span class="underline-on-hover">Calendarul evenimentelor</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--01.05.2019 16:30:20-->
+		
+	</nav>
+	<!--nav end-->
+
+	<main class="container">
+		
+
+
+
+<div class="page-header">
+	<h1>Log in</h1>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<section>
+			<h4>Foloseste contul de Facebook</h4>
+			<hr>
+			<div>
+						<p>Uita de parole sau creare de cont nou. Conecteaza-te cu contul de Facebook si ai toate beneficiile instant.</p>
+		<div>
+<form action="/mvc/Account/ExternalLogin?ReturnUrl=%2F" method="post"><input name="__RequestVerificationToken" type="hidden" value="Y5A_ouDma_MKJOMBn6GBQnVZo_hnYhSe5tAbggeJRxUTVixBNY5v8L1-mJ9ELBshLLzr7e15ppdC8zFlM0Irv6AUswZgHPbkM_D5moB4SEI1">				<div id="socialLoginList">
+					<p class="text-center">
+								<button type="submit" class="btn btn-facebook" id="Facebook" name="provider" value="Facebook" title="Login cu contul Facebook" style=""><i class="fa fa-facebook-official"></i>&nbsp;&nbsp;&nbsp;<strong>Login cu Facebook</strong></button>
+					</p>
+				</div>
+</form>		</div>
+
+
+			</div>
+		</section>
+	</div>
+	<div class="col-md-4">
+		<section>
+			<h4>Client existent</h4>
+			<hr>
+<form action="/mvc/Account/Login?ReturnUrl=%2F" class="form-horizontal" method="post" role="form" novalidate="novalidate"><input name="__RequestVerificationToken" type="hidden" value="jJV7j2EfVzl0dNtG3zJlJnBOo2kBTupKvN93mXbUyZwYWsf2hTzTgxEFHus-QB1KlV5ykDhYns01xG-I4A8BOopODeG5gSP7D7zGmMfIrHI1">				<div class="form-group">
+					<div class="col-md-10 col-md-offset-2">
+						<div class="text-danger validation-summary-errors" data-valmsg-summary="true"><ul><li>The Email field is not a valid e-mail address.</li></ul></div>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-md-2 control-label" for="Email">Email</label>
+					<div class="col-md-10">
+						<input class="form-control input-validation-error" data-val="true" data-val-email="The Email field is not a valid e-mail address." data-val-required="Email este necesar" id="Email" name="Email" type="text" value="" aria-required="true" aria-invalid="true" aria-describedby="Email-error">
+						<span class="text-danger field-validation-error" data-valmsg-for="Email" data-valmsg-replace="true"><span id="Email-error" class="">The Email field is not a valid e-mail address.</span></span>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-md-2 control-label" for="Password">Parola</label>
+					<div class="col-md-10">
+						<input class="form-control valid" data-val="true" data-val-required="Parola este necesara" id="Password" name="Password" type="password" aria-required="true" aria-invalid="false" aria-describedby="Password-error">
+						<span class="text-danger field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+					</div>
+				</div>
+				<div class="form-group hide">
+					<div class="checkbox">
+						<div class="col-sm-offset-2 col-md-10">
+							<label for="RememberMe">
+								<input checked="checked" data-val="true" data-val-required="The Retine datele pentru data viitoare field is required." id="RememberMe" name="RememberMe" type="checkbox" value="true"><input name="RememberMe" type="hidden" value="false">
+								Retine datele pentru data viitoare
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-md-10">
+						<input type="submit" value="Log in" class="btn btn-primary" style="">
+						
+						&nbsp;&nbsp;&nbsp;<a href="/mvc/Account/ForgotPassword">Ai uitat parola?</a>
+					</div>
+				</div>
+</form>		</section>
+	</div>
+	<div class="col-md-8">
+		<section>
+			<h4>Nu ai cont?</h4>
+			<hr>
+			<p>
+				<a href="/mvc/Account/Register">Creeaza cont nou</a>
+			</p>
+		</section>
+	</div>
+</div>
+
+
+	</main>
+
+	<section></section>
+
+	
+	<a id="bottom"></a>
+<section class="bottom-section" role="navigation">
+	<div class="container">
+		<div class="row visible-xs-block">
+			<div class="col-xs-12 text-center">
+					<ul class="list-inline list-unstyled">
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-fb-hover" target="_blank" href="https://www.facebook.com/bilete.ro/"><i class="fa fa-facebook"></i></a></li>
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-tw-hover" target="_blank" href="https://twitter.com/BileteRo"><i class="fa fa-twitter"></i></a></li>
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-gr-hover" target="_blank" href="https://instagram.com/bilete.ro/"><i class="fa fa-instagram"></i></a></li>
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-in-hover" target="_blank" href="https://www.linkedin.com/company-beta/18039725/"><i class="fa fa-linkedin"></i></a></li>
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-gp-hover" target="_blank" href="https://plus.google.com/u/0/115858290378870524797"><i class="fa fa-google-plus"></i></a></li>
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-yt-hover" target="_blank" href="https://www.youtube.com/channel/UCk0XE9GGNle4OlEFlEWequw"><i class="fa fa-youtube"></i></a></li>
+	</ul>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-3 col-md-3 col-sm-6 col-xs-8 pull-right">
+					<h4 class="bottom-title">Ajutor</h4>
+	<ul class="nav nav-stacked nav-pills">
+		<li><a href="/info/ajutor/cum-comand/"><i class="icon-left text-larger fa fa-question-circle-o"></i>Cum comand bilete?</a></li>
+		<li><a href="/info/ajutor/plata/"><i class="icon-left text-larger fa fa-credit-card"></i>Plata online sau cash</a></li>
+		<li><a href="/info/ajutor/livrare/"><i class="icon-left text-larger fa fa-envelope-o"></i>Livrare prin curier</a></li>
+		<li><a href="/info/ajutor/ridicare/"><i class="icon-left text-larger fa fa-shopping-bag"></i>Ridicare din magazin</a></li>
+		<li><a href="/info/ajutor/ebilet-printat-acasa/"><i class="icon-left text-larger fa fa-print"></i>eBilet printat acasa</a></li>
+		<li><a href="/info/ajutor/returnare/"><i class="icon-left text-larger fa fa-undo"></i>Returnare bilete</a></li>
+		<li><a href="/info/ajutor/duplicare-bilete/"><i class="icon-left text-larger fa fa-files-o"></i>Duplicare bilete</a></li>
+	</ul>
+ 
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-4">
+					<h4 class="bottom-title">Evenimente</h4>
+	<ul class="list-unstyled">
+		<li><a href="/categorii/teatru/" title="Teatru">Teatru</a></li>
+		<li><a href="/categorii/concerte/" title="Concerte si festivaluri">Concerte si festivaluri</a></li>
+		<li><a href="/categorii/sport/" title="Sport">Sport</a></li>
+		<li><a href="/categorii/pentru-copii/" title="Pentru copii">Pentru copii</a></li>
+		<li><a href="/categorii/cultural/" title="Cultural">Cultural</a></li>
+		<li><a href="/categorii/diverse/" title="Diverse">Diverse</a></li>
+	</ul>
+ 
+				<ul class="list-unstyled">
+					<li><a href="/calendar/"><i class="fa fa-calendar"></i> <span class="hidden-xs">Calendarul evenimentelor</span><span class="visible-xs-inline">Calendar</span></a></li>
+				</ul>
+				<div class="hidden-xs" style="padding-bottom:10px;">
+						<ul class="list-inline list-unstyled">
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-fb-hover" target="_blank" href="https://www.facebook.com/bilete.ro/"><i class="fa fa-facebook"></i></a></li>
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-tw-hover" target="_blank" href="https://twitter.com/BileteRo"><i class="fa fa-twitter"></i></a></li>
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-gr-hover" target="_blank" href="https://instagram.com/bilete.ro/"><i class="fa fa-instagram"></i></a></li>
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-in-hover" target="_blank" href="https://www.linkedin.com/company-beta/18039725/"><i class="fa fa-linkedin"></i></a></li>
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-gp-hover" target="_blank" href="https://plus.google.com/u/0/115858290378870524797"><i class="fa fa-google-plus"></i></a></li>
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-yt-hover" target="_blank" href="https://www.youtube.com/channel/UCk0XE9GGNle4OlEFlEWequw"><i class="fa fa-youtube"></i></a></li>
+	</ul>
+
+				</div>
+			</div>
+			<div class="col-xl-offset-1 col-lg-offset-1 col-md-5 col-sm-6 col-xs-12">
+					<h4 class="bottom-title">Despre noi</h4>
+	<ul class="list-unstyled">
+		<li><a href="/info/despre-noi/contact/"><i class="fa fa-angle-right"></i> Contact</a></li>
+		<li><a href="/info/despre-noi/termeni-si-conditii/"><i class="fa fa-angle-right"></i> Termeni si conditii</a></li>
+		<li><a href="/info/despre-noi/cookies/"><i class="fa fa-angle-right"></i> Despre Cookies</a></li>
+		<li><a href="/info/despre-noi/compania/"><i class="fa fa-angle-right"></i> Compania</a></li>
+		<li><a href="/info/despre-noi/privacy-policy/"><i class="fa fa-angle-right"></i> Politica de confidentialitate</a></li>
+	</ul>
+ 
+					<h4 class="bottom-title">Reteaua de magazine</h4>
+	<ul class="list-unstyled">
+		<li><a href="/info/retea/casieria-biletero/"><i class="fa fa-angle-right"></i> Casieria Bilete.ro</a></li>
+		<li><a href="/info/retea/inmedio/"><i class="fa fa-angle-right"></i> Magazinele Inmedio &amp; RELAY</a></li>
+		<li><a href="/info/retea/germanos/"><i class="fa fa-angle-right"></i> Magazinele Germanos</a></li>
+		<li><a href="/info/retea/posta-romana/"><i class="fa fa-angle-right"></i> Oficiile Posta Romana</a></li>
+	</ul>
+ 
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+	
+
+	<footer class="footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-md-3 col-sm-6 col-xs-12 text-center-xs pull-right">
+					<div class="margin-1">
+						
+
+
+<form action="/mvc/LanguageSwitch/SetLanguage" class="form-horizontal" method="post">	<input type="hidden" name="ReturnUrl" value="/mvc/Account/Login?ReturnUrl=%2F">
+		<button class="btn btn-link active" type="submit" name="NewLanguageCode" value="ro">RO</button>
+		<button class="btn btn-link " type="submit" name="NewLanguageCode" value="en">EN</button>
+		<button class="btn btn-link " type="submit" name="NewLanguageCode" value="hu">HU</button>
+</form>
+					</div>
+				</div>
+				<div class="col-xl-9 col-md-9 col-sm-6 col-xs-12 text-center-xs">
+					
+					<div>
+						<span>© 2006 - 2019</span> <a href="/">Bilete.ro</a>
+					</div>
+					<ul class="list-inline list-unstyled">
+						<li><a rel="nofollow" target="_blank" href="http://www.anpc.gov.ro/" title="Autoritatea Nationala pentru Protectia Consumatorilor">A.N.P.C.</a></li>
+						<li><a rel="nofollow" target="_blank" href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage" title="Online Dispute Resolution">O.D.R.</a></li>
+						
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	
+	<script src="/scriptbundles/MasterBileteRo?v=0o5tpqwqjKGUuyLWpPP8Zzy7VpLtNooptZUE1YIg-KQ1"></script>
+
+	
+	<script>
+		initMasterBileteRo(jQuery, window, {
+			urlSearchController: '/umbraco/api/searchapi/PostQueryAutocomplete/',
+			urlTicketingAppRoot: '/ticketing/',
+			urlBileteshopAppRoot: '/mvc/',
+			hideOrderSummary: 'False' == 'True',
+			affKeyword: ''
+		});
+	</script>
+	<script>
+		$(function () {
+			// activate bootstrap tooltip.js //
+			$('[data-toggle="tooltip"], [data-toggle-tooltip="bootstrap"]').tooltip({
+				container: 'body' // helps avoid clipping because of z-index
+			});
+		});
+	</script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-2510520-1', 'auto');
+	</script>
+
+	
+	<script src="/mvc/scriptbundles/jqueryval?v=ArClOWV7JNbcD36GP7qB3KWQA0V3BnEz5TNxMv2E_ZE1"></script>
+
+
+
+		<script>ga('send', 'pageview');</script>
+
+		<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+		<script type="text/javascript">
+			window.cookieconsent_options = { "message": "Acest site foloseste cookies pentru o experienta completa.", "dismiss": "Am inteles", "learnMore": "Mai multe info", "link": null, "theme": "dark-floating" };
+		</script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+		<!-- End Cookie Consent plugin -->
+
+
+
+</body></html>

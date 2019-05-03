@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: WebSelenium.features.search.CalendarBileteroStory
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.197 sec - in WebSelenium.features.search.CalendarBileteroStory

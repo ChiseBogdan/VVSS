@@ -1,0 +1,7 @@
+VVSS, Proiect 1. Biblioteca
+Informatică – Română, 2018-2019/II
+Proiectaţi şi implementaţi o aplicaţie Java pentru rezolvarea problemei propuse. Aplicatia trebuie sa fie Desktop si sa ruleze pe sistemul de operare Linux distributia Ubuntu Se va evidenţia o arhitectură stratificată. Informaţiile vor fi preluate din fişiere text. Datele vor fi stocate si citite dintr-un fisier denumit cartiBD avand extensia .dat (cartiBD.dat). Formatul datelor este de forma "titlu;autori;an;editura;cuvinteCheie". Atat cuvintele cheie cat si autorii pot fi mai multi, in acest caz fiind separati prin virgula.
+1. Evidenţa cărţilor dintr-o bibliotecă Biblioteca judeteana doreste dezvoltarea unui program pentru gestiunea cartilor existente. Programul va avea urmatoarele functionalitati:
+F01. adaugarea unei noi carti (titlu, autori, an aparitie, editura, cuvinte cheie);
+F02. cautarea cartilor scrise de un anumit autor (sau parti din numele autorului);
+F03. afisarea cartilor din biblioteca care au aparut intr-un anumit an, ordonate alfabetic dupa titlu si autori.

@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login biletero story","Test login","SUCCESS","2019-05-01T17:05:06.074+03:00[Europe/Bucharest]","0.0","9.97"
+"Login biletero story","Test login faling","SUCCESS","2019-05-01T17:05:16.079+03:00[Europe/Bucharest]","0.0","2.83"
